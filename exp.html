@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--This will be a pop up page-->
+<head>
+<title>Lizbeth's Portfolio</title>
+<meta charset="utf-8">
+<style>
+    body {
+        background-color: #FFDAD1;
+    }
+    h2{
+        text-align:center;
+        margin: auto;
+        color:#6D6875;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+
+
+    } 
+    h4{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 15px;
+
+    }
+    
+    p {
+        text-align:left;
+        font-size: medium;
+        font-family: 'Times New Roman', Times, serif;
+        color:#4E5255 ;
+    }
+    table, td, th {
+        border: 3.5px solid #6D6875;
+        background-color: #FFB4A2;
+    }
+    table {
+        border-collapse: collapse;
+        margin: auto;
+        width: 350px;
+        height: 200px;
+    }
+    td {
+        height: 50px;
+        vertical-align:bottom;
+}
+ #frame1 {
+margin-left: auto;
+margin-right: auto;
+top:10px; 
+bottom:0px; 
+left: 50px;
+width:650px; 
+height:700px; 
+background-color:#B5838D;
+box-shadow: 0px 4px #FFB4A2, 0px 10px 15px rgba(0, 0, 0, 0.2);
+color: #444049; 
+border-radius: 2% ;       
+}
+.leftcolumn {
+    float: left;
+    position: relative;
+    left: 10px;
+    width: 60%;
+    top:10px;
+    left:20px;
+}
+.rightcolumn {
+    float: left;
+    position: relative;
+    left:45px;
+    top: 10px;
+    width: 30%;
+    background-color: #B5838D;
+
+}
+.card {
+    background-color:#E5989B;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 2%;
+}
+/*Clear floats after columns*/
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.dot1 {
+  height: 10px;
+  width: 10px;
+  background-color: #444049;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+/*NAVI*/
+.nav { 
+    list-style:none;
+    float:left;
+    margin: 20px;
+    padding: 0px;
+    position:relative;
+    left:auto;
+    top:auto;
+    width: 150px;
+    height:400px;
+    background-color: #B5838D;
+}
+ /* Rule is to set the border in the navigation bar */
+li.nav_item:last-child{
+ border-right:none;
+}
+/* Display the hover color as blue and text color as white */
+li.nav_item a:hover {
+color:#FFCDB2 ;
+background-color: #E5989B;
+}
+/* Setting the text space in the navigation bar */
+li.nav_item a {
+    display:block;
+    text-align: center;
+    padding: 20px 20px;
+    background-color: #B5838D;
+}
+a{
+    text-decoration: none;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:#4E5255 ;
+ }
+footer {
+    background-color:#B5838D;
+    padding: 10px;
+    text-align: center;
+    color: #4E5255 ;
+    height: 40px;
+    width: auto;
+    position: relative;
+    left:0px;
+    top:10px;
+}
+.footer {
+    text-align: center;
+}
+h5 {
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    color:#4E5255  ;
+}
+
+</style>
+</head>
+<body>
+    <nav>
+        <ul class="nav">
+            <li class="nav_item"><a class ="active" href="C:\Portfolio_LD\index.html"> Home </a></li>
+            <li class="nav_item"><a class ="active" href="C:\Portfolio_LD\exp.html"> Qualifications </a></li>
+            <li class="nav_item"><a class ="active" href="C:\Portfolio_LD\cert.html"> Certifications</a></li>
+            <li class="nav_item"><a class ="active" href="C:\Portfolio_LD\projects.html"> Projects </a></li>
+            <li class="nav_item"><a class ="active" href="C:\Portfolio_LD\about_me.html"> About Me </a></li>
+        </ul>  
+        </nav> 
+
+<div id="frame1">      
+<div class="row">
+    <div class="leftcolumn">
+        <div class="card">
+            <h2>Education</h2>
+            <h4>Below is a table of my past and current education status</h4>
+            <table>
+                <tr>
+                    <th>School Name</th>
+                    <th>Diploma Title</th>
+                    <th>Year Graduated</th>
+                </tr>
+                <tr>
+                    <td>United High School</td>
+                    <td>GED</td>
+                    <td>2017</td>
+                 </tr>
+                 <tr>
+                    <td>University of Incarnate Word</td>
+                    <td>Bachelor in CIS</td>
+                    <td>2023</td>
+                 </tr>
+            </table>
+        </div>
+        <div class="card">
+            <h2>Employment</h2>
+            <h4>McDonald's shift manager and OTP</h4><p>05/2017-12/2020</p>
+        </div>
+    </div>
+    <div class="rightcolumn">
+        <div class="card">
+            <h2>Language</h2>
+            <h4>English</h4>
+            <p>Advanced</p>
+            <span class="dot1"></span>
+            <span class="dot1"></span>
+            <span class="dot1"></span>
+            <span class="dot1"></span>
+            <span class="dot1"></span>
+            <h4>Spanish</h4>
+            <p>Intermediate</p>
+            <span class="dot1"></span>
+            <span class="dot1"></span>
+            <h4>Korean</h4>
+            <p> Elementary</p>
+            <span class="dot1"></span>
+        </div>
+        <div class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>Problem Solving</li>
+                <li>Collaboration</li>
+                <li>Self-managment</li>
+                <li>Adaptability</li>
+                <li>Critical Thinking</li>
+              </ul>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+<footer>
+    <div class="footer"><h5>© Copyright of LizDel</h5> </div>  
+  </footer>
+</body>
+
+</html>

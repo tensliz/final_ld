@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Lizbeth's Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta charset="utf-8">
+<style>
+    body {
+        background-color:#FFDAD1;
+    }
+    #contact {
+        text-align: right;
+        font-size: medium;
+        position: relative;
+        bottom: -20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color:#FFB4A2;
+
+    }
+            /* Aligning the header 1 to center and setting the color */
+            h2
+        {
+            font-size: large;
+            font-family: 'Times New Roman', Times, serif;
+            text-align: right;
+            color:#6D6875 ;
+            position: relative;
+            top:30px;
+        }
+        h1 {
+            font-size:large;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: 'Times New Roman', Times, serif;
+            color: #6D6875 ;
+            position: relative;
+            top: auto;
+        
+        }
+
+        /* Setting the style for paragraph */
+        p
+        {
+            text-indent: 50px;
+            letter-spacing: 3px;
+            text-align: justify;
+        }
+      /* This rule is to set the navigation bar */
+      ul
+        {
+            list-style:none;
+            float:left;
+            margin: 20px;
+            padding: 0px;
+            position:relative;
+            left:auto;
+            top:auto;
+            width: 150px;
+            height:400px;
+            background-color: #B5838D;
+        }
+
+        /* Define the elements to align to left */
+
+        /* Rule is to set the border in the navigation bar */
+        li:last-child
+        {
+            border-right:none;
+        }
+
+        /* Display the hover color as blue and text color as white */
+        li a:hover
+        {
+            color:#FFCDB2 ;
+            background-color: #E5989B;
+        }
+
+        /* Setting the text space in the navigation bar */
+        li a
+        {
+            display:block;
+            text-align: center;
+            padding: 20px 20px;
+            background-color: #B5838D;
+        }
+        a{
+            text-decoration: none;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color:#444049;
+        }
+        input[type=text]{
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            transition: width 0.4s ease-in-out;
+            }
+        input[type=text]:focus {
+            width: 100%;
+
+        }
+        /*this is the ruke for defining profile pic*/
+        div.logo {
+            position: relative;
+            top: 30px;
+        }
+
+        footer {
+            background-color:#B5838D;
+            padding: 10px;
+            text-align: center;
+            color: #4E5255 ;
+            height: 40px;
+            width: auto;
+            position: relative;
+            left:0px;
+            top:auto;
+        }
+
+        section:after{
+            content:"";
+            display: table;
+            clear: both;
+        }
+        #frame{
+            margin-left: auto;
+            margin-right: auto;
+            float:none;
+            padding:10px;
+            width: 500px;
+            height: 300px;
+            position: relative;
+            top: 50px;
+            background:#B5838D;
+            box-shadow: 0px 4px #FFB4A2, 0px 10px 15px rgba(0, 0, 0, 0.2);
+            border-radius:2%;
+        }
+.fa {
+  padding:0px;
+  font-size:20px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  position: relative;
+  left: -50px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+#logo {
+    position: absolute;
+    top:180px;
+    left:30px;
+}
+        
+</style>
+</head>
+<form>
+    <input style="float:right"type="text"name="search"placeholder="Search...">
+</form>
+<body>
+<section>
+    <ul>
+        <li> <a class ="active" href="C:\Portfolio_LD\index.html">Home</a></li>
+        <li> <a class ="active" href="C:\Portfolio_LD\exp.html">Qualifications</a></li>
+        <li> <a class ="active" href="C:\Portfolio_LD\cert.html">Certifications</a></li>
+        <li> <a class ="active" href="C:\Portfolio_LD\projects.html">Projects</a></li>
+        <li> <a class ="active" href="C:\Portfolio_LD\about_me.html">About Me</a></li>
+    </ul>  
+    <div id="frame">
+        <header>
+            <h1>Lizbeth De Leon's Portfolio</h1>
+            <h2>Contact Information</h2>
+         </header>
+        <div id="logo">
+            <img src="images\logo.png"  
+            width="150px"
+            height="150px"
+            alt="Profile/Logo Picture">                   
+        </div>
+        <p id="contact">
+           <b>Lizbeth De Leon
+            <br>lizbethdeleonv@gmail.com
+            <br> (956) 334-6299
+            <br> 2627 Burke Dr.
+            <br> LinkedIn</b>
+            <br><a href="https://twitter.com/tensitgirl" class="fa fa-twitter"></a> <a href="https://www.instagram.com/tensliz/" class="fa fa-instagram"></a> <a href="https://github.com/tensliz" class="fa fa-github"></a>
+            </p>
+        </div>
+</section>
+
+    <footer>
+        <div class="footer"><h5>© Copyright of LizDel</h5> </div>  
+      </footer>
+
+</body>
+</html>
